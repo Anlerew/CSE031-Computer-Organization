@@ -1,0 +1,17 @@
+Collaborators: David Nguyen
+TPS ACTIVITY
+
+TPS Activity 1:
+1. Text Segment: 0x00400000
+   Data Segment: 0x10010000
+2. True Assembly language is one to one corresponding with the machine while Mipsa Assembly Language are instructions stored in memory and encoded.
+3. 0x00000020
+4. There are 8 columns per address
+5. The difference is that the addresses go up by 2 while the columns go up by 4
+6. m:	.word 20
+7. 0x10010000
+8. N/A
+9. at address 0x10010000 at columns +8, +c, +10
+10. Yes it does
+11. N/A
+12. la loads the value of n into the register $t3
