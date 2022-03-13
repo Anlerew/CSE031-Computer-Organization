@@ -1,0 +1,22 @@
+Collaborators: David Nguyen
+TPS Activity 1:
+1. (M.A.R.S) MIPS Assembler and Runtime Simulator
+2. N/A
+3. N/A
+4. a. You click file and then open and select the file in the desired folder.
+   b. To assemble the program you click the wrench and screwdriver icon.
+   c. To run the program you click the play icon.
+   d. You cannot run the program without assembling it.
+   e. To run the program line by line you must click the play icon with the subscript 1.
+   f. To run the program again you must click the the reverse double play button to reset.
+
+TPS Activity 2:
+1. .data has all the data of your program
+   .text has all the instructions for your program
+2. It is basically an if statement saying if the value is equal to zero then go to finish
+3. It allows the registers to jum to a given label without having to satisfy any condition
+4. To set a breakpoint in Mars you must find the line of code in which you want the breakpoint and then click the box to check the line.
+5. You can go to tools and untoggle breakpoints to continue running the code
+6. You can find and modify the content of the register through the register tab. You modify the value by selecting the register and inseerting the value.
+7. n is stored at address 0x00400008
+8. syscall tells the system to perform the function
