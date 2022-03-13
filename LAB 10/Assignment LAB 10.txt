@@ -1,0 +1,26 @@
+Assignment:
+1. There are 3 levels of cache. L1 has separate cache for data and instructions.
+
+2. 
+a. L1D = 32kb
+b. L1I = 32kb
+c. L2 = 256kb
+d. L3 = 6mb
+
+3. 
+a. L1D = 64-byte line size
+b. L1I = 64-byte line size
+c. L2 = 64-byte line size
+d. L3 = 64-byte line size
+
+4.
+a. L1D = 8-way set associative
+b. L1I = 8-way set associative
+c. L2 = 4-way set associative
+d. L3 = 12-way set associative
+
+5. 
+L1 Tag Bits: 20 bits
+L1 Index Bits: 6 bits
+L1 Offset Bits: 6 bits
+

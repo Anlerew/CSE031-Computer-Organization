@@ -1,0 +1,51 @@
+TPS Activity 1:
+1. Cache is a copy of a subset of main memory. We need cache because it holds data and instructions retrieved from RAM to provide faster access to the CPU. 
+2. N/A
+3. N/A
+4. Need 4 bits for offset. log(block size) = log(16) = 4
+5. Need 6 bits for index. log(num blocks) = log(64) = 6
+6. We know the size because you can multiply num of blocks by block size. Size = (num blocks) * (block size)
+7. Leftovers becomes the tag and important because it tells us the specific place we are trying to access and tells us if its a hit or miss.
+8. 	a. Main memory is 2^20 or 1 MB.
+	b. log(block size) = log(8) = 3 offset bits.
+	c. num blocks = 128/8 = 16 blocks
+	d. log(num blocks) = log(16) = 4 index bits.
+	e. 20 - 3 - 4 = 13 tag bits
+	f. Cache down below: v = valid, d = dirty, tag = tag, data = data
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+| v | d | tag | data |
+	g. 1 + 1 + 13 + 8(bits in row) * 8(bits each) = 79 bits per row
+
+TPS Activity 2
+1. Rate of miss is higher
+2. N/A
+3. 1024/4 = 256 = log(256) = 8 index bits
+4. 	a. 2^20 or 1 MB
+	b. offset bits = 3
+	c. 16 blocks. 128/8 = 16
+	d. 8 sets. 16/2 = 8
+	e. 3 index sets. log(8) = 3
+	f. 14 tag bits. 20 - 3 - 3 = 14
+	g. Cache down below: v = valid, d = dirty, tag = tag, data = data
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+| v | d | tag | data | data |
+	h. (8*8) + 14 + 1 + 1 = 80 bits per row

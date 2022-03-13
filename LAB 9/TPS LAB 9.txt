@@ -1,0 +1,63 @@
+Collaborator: David Nguyen
+TPS Activity 1:
+1. N/A
+2. N/A
+3. N/A
+4. N/A
+5. 7 types(Data Tranfer: Push and Pop, Arithmetic: Add and Sub, Logic: Not and And, String Manipulation: Movs and Movsb, Control Transfer: Jmp and Jnz, Loop Control: Loop and Loope, Processor Control: Std and Cld
+6. 	a. 0x20100019, 4 fields, opcode, rs, rt, immediate
+	b. 0x8 for opcode register for rs is $s0 or $16, hex of rs is 0x10, register of rt is $0 or $zero and hex is 0x0
+7. 	a. 0x0230402a, 0000 0010 0011 0000 0100 0000 0010 1010
+	b. instruction type = r because of MIPS reference sheet, 000000 + opacode whcih means its 0 in hex which is sll, 6 fields, opcode, rs, rt, rd, shamt, funct
+	c. opcode = 0x0, rs = 0x11, rt = 0x10, rd = 0x8, shamt = 0x0, funct = 0x2a
+	d. operation is shift left logical (sll), because opcode is 0x0. R[rd] = R[rt] << shamt, opcode > rs > rt > rd > shamt > funct
+	e. final MIPS instruction is syscall
+8.	a. opcode > rs > rt > immediate
+	b. opcode = 0x5, rs = 0x8, rt = 0x0
+	c. Less, address = 0x0040001c
+	d. Yes because its the address we want to jump as well as it fills out the argument/condition
+	e. since we know that there are 16 bits left for the immedaite field then its a value that can be up to 2^15. The value should be 1.
+	f. machine code is 0x15000001, binary is = 0001 0101 0000 0000 0000 0000 0000 0001
+9.	a. format is opcode > address, only 2 fields
+	b. opcode = 0x2 
+	c. label is GREQ, address is 0x00400030
+	d. You are allowed 26 bits in the address field. you squeeze the address by taking  the first 4 bits of the original address then moving the rest of the address over by 2^2 . the reason being is so that it allocates enoug room. it address value in binary = 0000 0000 0100 0000 0000 0011 0000
+	e. machine code in hex = 0x0810000c, binary is 0000 0001 0000 0000 0000 0000 0000 1100
+
+Assignment
+
+Line #7: 
+addi $s0, $zero, -15
+opcode: 001000
+rs: 10000
+rt: 00000
+immediate: 1111 1111 1111 0001
+Binary: 0010 0000 0001 0000 1111 1111 1111 0001
+Machine Code: 0x201fff1
+
+Line #14
+slt $t0, $s0, $s1
+opcode: 000000
+rs: 10000
+rt: 10001
+rd: 01000
+shamt: 00000
+funct: 101010
+Binary: 0000 0010 0001 0001 0100 0000 0010 1010
+Machine Code: 0x0211402A
+
+Line #17
+beq $t0, $zero, LEEQ
+opcode:000100
+rs:01000
+rt: 00000
+immediate: 0000 0000 0000 0110
+Binary: 0001 0001 0000 0000 0000 0000 0000 0000 0110
+Machine Code: 0x11000006
+
+Line #20
+j GRT
+opcode: 000010
+immediate: 0000 0100 0000 0000 0000 0001 1100
+Binary: 0000 1000 0100 0000 0000 0000 0001 1100
+Machine Code: 0x0840001c

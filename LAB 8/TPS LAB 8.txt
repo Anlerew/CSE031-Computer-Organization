@@ -1,0 +1,25 @@
+Collaborator: David Nguyen
+TPS Activity 1:
+1. N/A
+2. N/A
+3. N/A
+4. N/A
+5. You do not need to declare n in the .data segment as well as the la lw instructions.
+6. N/A
+
+TPS Activity 2:
+1. 29
+2. It takes an integer, runs it through recursion and prints it out.
+3. N/A
+4. $t1
+5. $t1. We can use $a1 instead of $a0
+6. N/A
+7. 12, the first thing to be stored in the stack is the user input
+8. N/A
+9. N/A
+10. We have to save $a0 in the stack because the value of it is being changed
+11. N/A
+12. It will result in an error
+13. N/A
+14. N/A
+15. The value is 10

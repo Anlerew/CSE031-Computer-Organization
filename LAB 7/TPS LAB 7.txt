@@ -1,0 +1,23 @@
+Collaborator: David Nguyen
+TPS Activity 1:
+1. A function returns a value, but a procedure does not. A method is similar to a function, but is internal part of a class.
+2. N/A
+3. N/A
+4. Line 20, adds the 2 values together
+5. No because we aren't jumping labels, we are jumping registers.
+6. At line 11. It saves in register $v0. The value is 15. It does make sense.
+7. It doesn't work.
+8. 0x00400020
+9. It is correct. It resulted in the number 15.
+10. The new return address is 0x00400028
+11. We should use jal
+12. N/A
+
+TPS Activity 2:
+1. The output is 38.
+2. The main functions loads the integers x and y and calls the sum.
+3. The SUM knows where to return to because the address is linked to it using the jal operator. The SUM changes addresses for the SUM into SUB.
+4. This problem can be solved by saving the value of SUM in a non temporary register and having SUB saved in a temporary register so it can be saved later in a non tempory register.
+5. It goes to line 15. Yes it is because you are getting rid of the value of x so you must give it to another register
+6. N/A
+
