@@ -1,0 +1,25 @@
+Collaborator: David Nguyen
+TPS Activity 1:
+1.      a. Static
+	b. Stack
+	c. Heap
+2.      a. 3 variable
+	b. 2 pointers (*ptr points to the address of num, **handle points to the address of ptr)
+	c. num is stack, *ptr and **handle are heap
+	d. heap
+
+TPS Activity 2:
+1. It is a Binary Search Tree which means that the input is inserted to head then to node and then sorted
+2. They are stored in increments of 4 because they are integers. The head is the initial value of the linked list.
+
+Assignment 1:
+1.      a. You need to pass the size of the array because without it you cannot travel upto the last element of array.
+	b. Yes the original array is altered.
+	c. If new array is not used the original array will not be available after sorting.
+2. N/A
+3. N/A
+
+Assignment 2:
+1. N/A
+2. N/A
+3. N/A

@@ -1,0 +1,30 @@
+TPS Activity 1:
+1. https://www.youtube.com/watch?v=Aloc9UdhsC4
+   https://www.youtube.com/watch?v=gR2bFNrYmD0
+   https://www.youtube.com/watch?v=tPKdfbL1Zv4
+2. https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+3. N/A
+
+TPS Activity 2:
+1. a. Since  I use Windows 10 I installed Linux Ubuntu and run the bash from command prompt.
+   b. You want to open more than one terminal at a time to be able to run different programs at the same time.
+2. You use the command ls.
+3. You use the cd command to direct to Desktop.
+4. You use the mkdir command.
+5. NA
+6. NA
+7. NA
+
+TPS Activity 3:
+1. http://www.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+   https://www.tutorialspoint.com/unix_commands/gcc.htm
+2. NA
+3. gcc main.c -o main
+4. If it goes to a new line and doesn't prompt you with errors, it has compiled successfully.
+5. Instructs preprocessor to keep commands 
+6. -g includes debugging info
+7. Since I am using Windows I go to the folder in which I save the code and rename the file and then recompile it.
+8. It still compiles.
+9. NA
+10. NA
+

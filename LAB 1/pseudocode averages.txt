@@ -1,0 +1,11 @@
+int posSum = 0 int negSum = 0 int counterPos = 0 int counterNeg = 0 int ave_pos = 0 int ave_neg = 0 int input 
+ 
+print “Please enter an integer: “ 
+ 
+start while loop while (userinput equals true and input value is not 0) print “Please enter an integer: “ start if statement  if condition (input less than 0) negSum equals to itself plus input increase counterNeg by one else  posSum equals to itself plus input increase counterPos by one end if statement end while loop 
+ 
+start if statement if condition (posSum not 0) ave_pos equals to posSum divided by counterPos 
+print “Positive average: “ and ave_pos end if statement 
+ 
+ 
+start if statement if condition (negSum not 0) ave_neg equals to negSum divided by counterNeg print “Negative average: “ and ave_neg end if statement 

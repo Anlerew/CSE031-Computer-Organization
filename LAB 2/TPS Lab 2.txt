@@ -1,0 +1,53 @@
+Collaborators: David Nguyen
+TPS Activity 1:
+1. https://web.eecs.umich.edu/~sugih/pointers/summary.html
+   https://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
+   https://www.thegeekstuff.com/2010/03/debug-c-program-using-gdb/
+2. N/A
+3. N/A
+4. N/A
+
+TPS Activity 2:
+1. gcc -g -o punish punishment.c
+2. gdb punish
+3. (gdb) run
+4. It will run the program until it hits the assigned line.
+   (gdb) break <#line>
+5. (gdb) s
+6. (gdb) print <variable>
+7. (gdb) c
+8. (gdb) quit
+
+TPS Activity 3:
+1. 4 variables and 2 pointers
+2. No value only put into variables
+3. Give variables values
+4. In program
+5. In program
+6. In program
+7. They are the same
+8. N/A
+
+Assignment 1:
+1. Line 15
+2. Add reference to input in while loop
+3. The value of sum reverts to 0 once in main function
+4. Move read_values function into main and remove (values = read_values(sum);), (sum = 0;), (return values;), (int values;)
+
+Assignment 2:
+1. No
+2. No
+3. No
+
+Output: 
+Starting program: /mnt/c/Users/anler/Desktop/CODE/C/PROGRAM MERCED/LAB 2/appendTest
+str1 = HELLO!
+str2 = hello!
+The result of appending str2 to str1 is HELLO!hello!llo!.
+str1 = HI!
+str2 = hi!
+The result of appending str2 to str1 is HI!hi!hellhi!.
+str1 = Hello! How are you?
+str2 = I am fine, thank you!
+The result of appending str2 to str1 is Hello! HowI am fine, thank you!I am fine, thank you!.
+

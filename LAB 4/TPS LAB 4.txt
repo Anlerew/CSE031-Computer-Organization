@@ -1,0 +1,30 @@
+Collaborators: David Nguyen
+TPS Activity 1:
+1. 2
+2. 41414141
+3. Yes the answer is 41414141
+4. 2 No because we changed four_ints[0] t0 41414141 to a char pointer
+5. a. Only one array is allocated
+   b. Yes. The array name is pointing to the base address of the array. So both four_c and four_ints points to same location.
+   c. 2
+      41414141
+      2
+      0x7fffcbce74c0
+      0x7fffcbce74c0
+6. Difference of 4 bytes in int
+7. N/A
+8. Difference of 1 byte in char
+9. N/A
+10. It reads the entirety of the block of memory as int 4 bytes and char 1 byte, etc.
+11. N/A
+12. N/A
+
+TPS Activity 2:
+1. It will allocate the memory for int** with its condition of being as big as n time int*
+2. We can think of arr as a pointer to a pointer to an integer. That is int**.
+3. N/A
+4. You need to pass the size because the memory is not automatically allocated so you have to manually allocate the memory yourself with malloc.
+5. N/A
+6. N/A
+7. N/A
+8. N/A
